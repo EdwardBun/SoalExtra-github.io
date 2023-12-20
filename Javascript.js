@@ -1,6 +1,6 @@
-let Vip = 50
-let Eks = 50
-let Eko = 50
+let Vip = parseFloat(prompt("Tiket Vip yang terjual"))
+let Eks = parseFloat(prompt("Tiket Eksekutif yang terjual"))
+let Eko = parseFloat(prompt("Tiket Ekonomi yang terjual"))
 
 
 //VIP//
@@ -32,7 +32,10 @@ let UntungEko = Eko * Untung3
 let JumlahUntung = UntungVip + UntungEks + UntungEko
 let JumlahTiket = Vip + Eks + Eko
 
-console.log(`Jadi keuntungan per kelas tiket adalah: ${UntungVip}% Untuk Kelas Vip ${UntungEks}% Untuk Kelas Eksekutif ${UntungEko}% Untuk Kelas Ekonomi`)
-console.log(`Jadi Keuntungan Keseluruhan adalah: ${JumlahUntung}%`)
-console.log(`Jadi Jumlah tiket perkelas adalah: ${Vip} Untuk kelas Vip ${Eks} Unntuk Kelas Eksekutif ${Eko} Untuk kelas Ekonomi`)
-console.log(`Jadi Jumlah tiket Keseluruhan adalah:${JumlahTiket}`)
+document.write(`Jadi keuntungan per kelas tiket adalah: ${UntungVip}% Untuk Kelas Vip ${UntungEks}% Untuk Kelas Eksekutif ${UntungEko}% Untuk Kelas Ekonomi`)
+document.write`<br>`
+document.write(`Jadi Keuntungan Keseluruhan adalah: ${JumlahUntung}%`)
+document.write`<br>`
+document.write(`Jadi Jumlah tiket perkelas adalah: ${Vip} Untuk kelas Vip ${Eks} Unntuk Kelas Eksekutif ${Eko} Untuk kelas Ekonomi`)
+document.write`<br>`
+document.write(`Jadi Jumlah tiket Keseluruhan adalah:${JumlahTiket}`)
